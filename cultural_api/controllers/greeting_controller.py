@@ -1,6 +1,7 @@
 # controllers/greeting_controller.py
 
-from models.greeting_model import get_cultural_greeting
+from models.greeting_model import get_cultural_greetings
 
 def greeting_controller():
-    return {"greeting": get_cultural_greeting()}
+    greetings = get_cultural_greetings()
+    return {"greetings": greetings}

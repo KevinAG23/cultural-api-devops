@@ -1,3 +1,5 @@
+# app.py
+
 from flask import Flask
 from routes.greeting_route import greeting_bp
 
